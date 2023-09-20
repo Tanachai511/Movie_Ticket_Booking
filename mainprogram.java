@@ -6,9 +6,9 @@ class MainProgram {
     Scanner kb = new Scanner(System.in);
     ArrayList<Movie> MovieList = new ArrayList<Movie>();
 
-    Movie Movie1 = new Movie(1, "A", "A", "A", 90.00);
-    Movie Movie2 = new Movie(2, "B", "B", "B", 120.00);
-    Movie Movie3 = new Movie(3, "C", "C", "C", 150.00);
+    Movie Movie1 = new Movie(1, "The Shawshank Redemption", "Frank Darabont", "Drama", 122.00);
+    Movie Movie2 = new Movie(2, "The Godfather", "Francis Ford Coppola", "Crime , Drama", 160.00);
+    Movie Movie3 = new Movie(3, "Inception", "Christopher Nolan", "Action , Adventure , Sci-Fi", 148.00);
     MovieList.add(Movie1);
     MovieList.add(Movie2);
     MovieList.add(Movie3);
