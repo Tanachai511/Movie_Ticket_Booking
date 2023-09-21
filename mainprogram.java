@@ -111,23 +111,6 @@ class Ticket extends Movie {
         super(MovieNumber, MovieName, Director, Genre, RunTime);
     }
 
-    public ArrayList<String> getBranches() {
-        return branches;
-    }
-    public ArrayList<String> getDates() {
-        return dates;
-    }
-    public ArrayList<String> getShowTimes() {
-        return showTimes;
-    }
-    public ArrayList<String> getSeatNumbers() {
-        return seatNumbers;
-    }
-    public ArrayList<Integer> getPrice() {
-        return prices;
-    }
-
-
    public void SetTicket(int numberOfTickets) {
     this.numberOfTickets = numberOfTickets;
     branches = new ArrayList<>();
